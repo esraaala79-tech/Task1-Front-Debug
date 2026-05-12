@@ -1,9 +1,11 @@
 import { NavLink } from "react-router-dom";
+import Home from "../pages/Home"
+import todos from "../pages/TodoList"
 import styles from "./Sidebar.module.css";
 
 const Sidebar = () => {
   return (
-    <aside className={styles.side - bar}>
+    <aside className={styles.sidebar}>
       <div className="p-4 fw-bold text-white fs-4 border-bottom border-secondary mb-3">
         <i className="fa-solid fa-check-double me-2"></i>Todo Master
       </div>
